@@ -8,5 +8,5 @@ backend:
     functions:
         - name: hello
           path: .
-          entry: hello.js
+          entry: hello.mjs
           handler: handler
