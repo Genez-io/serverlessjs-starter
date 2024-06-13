@@ -1,0 +1,12 @@
+name: (•◡•)project-name(•◡•)
+region: (•◡•)region(•◡•)
+yamlVersion: 2
+backend:
+    path: .
+    language:
+        name: js
+    functions:
+        - name: hello
+          path: .
+          entry: hello.js
+          handler: handler
